@@ -1,0 +1,4 @@
+After running the program by calling main:
+1.  The variable inside increment_int_a(someval) did not change
+2.  The variable inside increment_int_b(someval) did change
+3. They differed because Python will not change an integer, but it can change a value in a dictionary
