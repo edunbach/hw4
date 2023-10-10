@@ -11,8 +11,9 @@ def my_steps(x):
 
     if x == 2:
         output[2] = 2
-    for i in range (1, x+1):
-        output[i] = output[i-1] + output[i-2]
+    elif:
+        for i in range (1, x+1):
+            output[i] = output[i-1] + output[i-2]
         
         
     return output[x]
