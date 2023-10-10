@@ -3,7 +3,7 @@
 def my_steps(x):
     if x < 1 or x > 25:
         raise ValueError("The input must be an ingteger between 1 and 25")
-    else:
+    
         output = [0] * (x+1)
 
         output[1] = 1
