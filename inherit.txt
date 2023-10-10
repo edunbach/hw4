@@ -1,0 +1,4 @@
+First, I would use inheritance in a program so that I could use the code from a class and apply it to multiple objects. 
+Secondly, I would use inheritance to keep myself organized:
+     for example, If i have multiple types of objects, I might want to categorize them under a class
+     (almost as if I were filing: class = folder, object = file)
