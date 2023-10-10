@@ -11,12 +11,13 @@ class Circle(Base):
         super().__init__(x, y, size)
 
     def shape(self):
-        return f'''This is a circle
-    ({self.x}, {self.y})
-    {self.size}'''
+        return "This is a circle"
+   
 
     def draw(self):
         return f'''
+({self.x}, {self.y})
+{self.size}
 
          , - ~ ~ ~ - ,
      , '               ' ,
