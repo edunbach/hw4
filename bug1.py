@@ -11,7 +11,7 @@ class Circle(Base):
         super().__init__(x, y, size)
 
     def shape(self):
-        returnf'''This is a circle
+        return f'''This is a circle
     ({self.x}, {self.y})
     {self.size}'''
 
