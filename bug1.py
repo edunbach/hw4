@@ -10,10 +10,14 @@ class Circle(Base):
     def __init__(self, x, y, size):
         super().__init__(x, y, size)
 
+    def shape(self):
+        returnf'''This is a circle
+    ({self.x}, {self.y})
+    {self.size}'''
+
     def draw(self):
-        return f'''This is a circle
-({self.x}, {self.y})
-{self.size}
+        return f'''
+
          , - ~ ~ ~ - ,
      , '               ' ,
    ,                       ,
@@ -30,6 +34,7 @@ class Circle(Base):
 
 def main():
     c = Circle(1, 2, 3)
+    print(c.shape())
     print(c.draw())
 
 if __name__ == "__main__":
