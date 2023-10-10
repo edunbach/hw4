@@ -28,3 +28,9 @@ class Circle(Base):
 
 '''
 
+def main():
+    c = Circle(1, 2, 3)
+    print(c.draw())
+
+if __name__ == "__main__":
+    main()
