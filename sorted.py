@@ -1,6 +1,6 @@
 #Q3 sorted.py reverse_sort_dictionary()
 
-def reverse_sort_dictionary(dictionary):
+def sort_dictionary(dictionary):
     if not isinstance(dictionary, dict):
         raise TypeError("Check that input is in dictionary format {'name': (###-###-####, age),'name': (###-###-####, age), 'name': (###-###-####, age)")
 

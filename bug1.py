@@ -6,7 +6,7 @@ class Base:
         self.y = y
         self.size = size
 
-class Circle(Base):
+class Square(Base):
     def __init__(self, x, y, size):
         super().__init__(x, y, size)
 
@@ -29,7 +29,7 @@ class Circle(Base):
 '''
 
 def main():
-    c = Circle(1, 2, 3)
+    c = Square(1, 2, 3)
     print(c.draw())
 
 if __name__=="__main__":
