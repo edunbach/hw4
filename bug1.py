@@ -18,7 +18,6 @@ class Circle(Base):
         return f'''
 ({self.x}, {self.y})
 {self.size}
-
          , - ~ ~ ~ - ,
      , '               ' ,
    ,                       ,

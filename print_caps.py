@@ -1,7 +1,10 @@
 #Q7 print_caps.py create decorator
 
 def allcaps(func):
-    def wrapper(): #wrapper inside allcaps as decorator
-        result = func() 
-        return f'{result.upper()}' #returns all uppercase of message
+    def wrapper():
+        result = func()
+        if result:
+            return result.upper()
+        else:
+            return result  # Return the original result if it's an empty string or None
     return wrapper

@@ -6,12 +6,14 @@ def my_steps(x):
     
     output = [0] * (x+1)
 
-    output[1] = 1
-    output[2] = 2
+    if x == 1:
+        output[1] = 1
 
-    for i in range (3, x+1):
+    if x == 2:
+        output[2] = 2
+    for i in range (1, x+1):
         output[i] = output[i-1] + output[i-2]
-
+        
+        
     return output[x]
-
 
